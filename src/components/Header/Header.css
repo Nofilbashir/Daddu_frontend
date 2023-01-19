@@ -1,0 +1,25 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+.Header_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    color: var(--orange);
+    padding: 0.5rem;
+    border: 1px solid var(--orange);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
